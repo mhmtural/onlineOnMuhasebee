@@ -1,0 +1,618 @@
+﻿
+@{
+    ViewBag.Title = "DahaFazlaOzellik";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="sayfasin">
+    <div class="sayfasinbaslik">
+        <h3 class="sayfasinbaslik">Ön muhasebe programı özellikleri</h3>
+    </div>
+</div>
+
+<!--page title-->
+<div class="yanci">
+    <ul class="yanci">
+        <li><button class="yancibuton"><a style="color: white;" href="#efatura">E-FATURA</a></button></li>
+        <li><button class="yancibuton"><a style="color: white;" href="#hizlisatis">HIZLI SATIŞ</a></button></li>
+        <li>
+            <button class="yancibuton"><a style="color: white;" href="#barkodliste">BARKOD LİSTELERİ</a></button>
+        </li>
+        <li>
+            <button class="yancibuton"><a style="color: white;" href="#otoyedek">OTOMATİK YEDEKLEME</a></button>
+        </li>
+        <li>
+            <button class="yancibuton"><a style="color: white;" href="#stokrisk">STOK-RİSK YÖNETİMİ</a></button>
+        </li>
+        <li><button class="yancibuton"><a style="color: white;" href="#etas">E-TAHSİLAT</a></button></li>
+        <li><button class="yancibuton"><a style="color: white;" href="#teklifsipa">TEKLİF-SİPARİŞ</a></button></li>
+        <li><button class="yancibuton"><a style="color: white;" href="#persotakip">PERSONEL TAKİP</a></button></li>
+        <li><button class="yancibuton"><a style="color: white;" href="#vadetakip">VADE TAKİP</a></button></li>
+    </ul>
+</div>
+
+<div class="container section-padding">
+    <div class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <h2 id="efatura"> E-FATURA</h2>
+        <img src="images/icon/e-fatura.svg" alt="" class="iconpage">
+        <p>
+            E-fatura, satıcı ve alıcı arasındaki faturalandırma işleminin Gelir İdaresi Başkanlığı üzerinden dijital
+            ortamda yapıldığı ve faturalarının kâğıda basılmasının gerekli olmadığı elektronik belgedir.
+        </p>
+
+
+        <ul style="list-style-type: none;">
+            <span id="dots"></span>
+            <span id="more">
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Maliyetleriniz azalır. (Kağıt, mürekkep,
+                zarf,
+                postalama, arşivleme ve mutabakat vb.)
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Faturalarınızı daha hızlı hazırlarsınız.
+                Zamandan
+                tasarruf etmiş olursunuz.
+            </li>
+            <br>
+            <li><i style="color: green;" class="fas fa-check"></i> Faturalarınızın kaybolma riski olmaz.</li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Tahsilatlarınızı hızlandırırsınız.
+                İstediğiniz
+                zaman eski faturalarınıza rahatlıkla ulaşabilirsiniz.
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Faturalarınız dijital ortamda arşivlenir.
+                Fatura
+                saklama iş yükü ve maliyetinden kurtulursunuz.
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Muhasebe sisteminiz ile entegre
+                edebilirsiniz.
+                Çevre dostudur.
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Müşterilerle ve satıcılarla mutabakat
+                yapmanızı
+                kolaylaştırır..
+            </li>
+            </span>
+        </ul>
+        <br>
+        <p>
+            Bilsoft Premium Mega Muhasebe Programı kullanıcılarına ve Bilsoft Online Muhasebe programı kullanıcıları
+            ücretsiz e-faturaya ve e-arşive geçiş yapabilmektedir. Diğer bir ifadeyle, Online ve Premium Mega
+            muhasebe programlarımızı kullanan müşterilerimizin e-fatura dönüşümleri ücretsiz yapılmaktadır.
+        </p>
+        <br>
+        <button onclick="myFunction('dots','more','myBtn')" id="myBtn">
+            &#9660;
+        </button>
+    </div>
+    <br><br>
+
+    <!--heading div-->
+    <div id="hizlisatis" class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <img src="images/icon/hizli-satis.svg" alt="" class="iconpage">
+        <br>
+        <h2> HIZLI SATIŞ</h2>
+        <p>
+            Bu çalışma sisteminde tüm stok, kasa giriş-çıkışlarınızı otomatik olarak takip edin ve kayıpları
+            azaltın. Basit arayüz ile sizlere hız kazandıracak olan Hızlı Satış Programı ile iş sürecinizi
+            kolaylaştırın.
+        </p>
+
+
+        <ul style="list-style-type: none;">
+            <span id="dots1"></span>
+            <span id="more1">
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Ön Muhasebe
+                    Programıyla Tam Entegrasyon
+                    Çalışma:
+                </span>Muhasebe Programıyla entegre çalışması sizler için carilerinizi,
+                stoklarınızı,
+                taksitlerinizi, faturalarınızı, çeklerinizi teklif ve siparişlerinizi takip genel anlamıyla
+                program
+                içerisinden de takip edebilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Dokunmatik
+                    Ekran
+                    Özelliği:
+                </span> Hızlı satış ekranında
+                perakende satış yapan firmalar için kolaylık sağlayan dokunmatik ekran çalışmasıyla işleriniz
+                hız
+                kazanacak.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Tek
+                    Butonla Nakit Ve Kredi Kartı Satışı:
+                </span> Tek
+                tuşla, nakit satış işlemi gerçekleştirilirken; hızlı stok ürün ekleme hızlı para ekleme
+                işlemlerinizi ve kredi kartı satış işlemi gerçekleştirilirken; hızlı stok ürün ekleme hızlı para
+                ekleme ve para üstünü görerek işlemlerinizi gerçekleştirebilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Çoklu
+                    Ödeme:
+                </span> Satış ekranınızda müşterilerinizden
+                gelen aynı ödemeleri hem nakit hem kredi kartı ödeme seçeneği ile sizler işleminizi kolay
+                kullanımlı
+                ekranlarımızda hızlandıracaksınız.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Müşteri
+                    Bekletme:
+                </span> Hızlı Satış yaptığınız sırada
+                farklı müşterileriniz alışverini tamamlarken birden fazla ödeme ekranı açarak işlemleriniz hız
+                kesmeden tamamlayabilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Dokunmatik
+                    Hızlı
+                    Ürün Ekleme ( 5 Ayrı Grup
+                    Tanımlayabilme ):
+                </span> Program içerisinde ürünlerinizi resim, barkod, stok adı ekleyerek
+                tanımlayabilirsiniz. Ürünler bölümünde 5 ayrı gruplandırma ise sizlere avantaj sağlayacaktır.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Barkod
+                    Okuyucu Entegre Ve Müşteri
+                    Göstergesi(PosClass):
+                </span> Perakende sektörünün en çok ihtiyacı olan Barkod Okuyucu
+                entegre
+                sistemiyle
+                işleriniz hızlanır ayrıca hızlı satış işleminde anında yapılan işlemlerin tüm bilgilerini
+                müşteri
+                ekranında anında gösterilir.
+            </li>
+            </span>
+        </ul>
+        <br>
+        <p>Basit arayüz ile sizlere hız kazandıracak olan Hızlı Satış Programı ile iş sürecinizi kolaylaştırın.</p>
+        <br>
+        <button onclick="myFunction('dots1','more1','myBtn1')" id="myBtn1">
+            &#9660;
+        </button>
+    </div>
+
+    <!--heading div-->
+    <div id="barkodliste" class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <img src="images/icon/barkod-listeleri.svg" alt="" class="iconpage">
+        <br>
+        <h2> BARKOD LİSTELERİ</h2>
+        <br>
+        <p>
+            Dileyen müşterilerimiz hazır barkod listesini alarak işlemlerine hız katabilirler.
+        </p>
+        <br>
+        <ul style="list-style-type: none;">
+            <span id="dots3"></span>
+            <span id="more3">
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Marketler için güncel 20.000 Adet hazır ürün
+                barkodu mevcuttur.)
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Kırtasiyeler için güncel 10.000 Adet hazır
+                ürün
+                barkodu mevcuttur.
+            </li>
+            <br>
+            </span>
+        </ul>
+        <br>
+        <button onclick="myFunction('dots3','more3','myBtn3')" id="myBtn3">
+            &#9660;
+        </button>
+    </div>
+
+
+    <!--heading div-->
+
+    <div id="otoyedek" class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <img src="images/icon/otomatik-yedekleme.svg" alt="" class="iconpage">
+        <h2> OTOMATİK YEDEKLEME</h2>
+        <br>
+        <p>
+            Bilsoft Cari Hesap Programı kullanıcılarının istekleri doğrultusunda hazırlanmış olan bu program
+            sayesinde artık verilerinizin kaybolmasından korkmanıza gerek kalmayacak.
+        </p>
+        <ul style="list-style-type: none;">
+            <span id="dots2"></span>
+            <span id="more2">
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">Olusturma:</span>Programı kullanarak dilediğiniz
+                an yedek oluşturabilirsiniz.
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Geri
+                    Yükleme:
+                </span> ".bls" uzantılı yedeklerinizi
+                Bilsoft Cari Hesap Programı'nda kullanmak üzere yedekleyebilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Periyodik
+                    olarak
+                    Düzenli Yedekleme:
+                </span> Düzenli
+                yedeklemeyi ayarlayarak programın sizin belirlediğiniz aralıklarda sizin belirlediğiniz adrese
+                yedek
+                almasini sağlayabilirsiniz. Ayrıca yedeklemeyi istediğiniz zaman başlatıp istediğiniz zaman
+                durdurabilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Otomatik
+                    Devreye
+                    Girmeye:
+                </span> Program kurulduktan
+                sonra otomatik çalışmaya başlayacaktır. Bilgisayarınızı yeniden başlatmanız durumunda açılışta
+                otomatik çalışmaya devam edecektir.
+            </li>
+            <br>
+            </span>
+        </ul>
+        <br>
+        <p>
+            Programımız lisans gerektirmektedir. Bilgisayarınıza indirip demo olarak programı görebilirsiniz. Ancak
+            özellikleri aktif olarak kullanabilmek için programı satın almanız gerekmektedir.
+        </p>
+        <br>
+        <button onclick="myFunction('dots2','more2','myBtn2')" id="myBtn2">
+            &#9660;
+        </button>
+    </div>
+
+
+    <!--heading div-->
+    <div id="stokrisk" class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <img src="images/icon/stok-risk-limiti.svg" alt="" class="iconpage">
+        <br>
+        <h2> STOK-RİSK LİMİTİ</h2>
+        <br>
+        <p>
+            Bilsoft Stok Risk Limiti Programı riskli ürünleriniz belirlediğiniz sayının altına düştüğü taktirde mail
+            adresinize bildirir.
+        </p>
+        <br>
+        <ul style="list-style-type: none;">
+            <span id="dots4"></span>
+            <span id="more4">
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Stoklarınıza risk limiti belirtebilirsiniz.
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> Belirli bir sayının altına düşen stoklarınıza
+                risk limiti belirleyerek elinizdeki stoklarınızın takibini daha sağlıklı bir şekilde
+                gerçekleştirebileceksiniz.
+            </li>
+            <br>
+
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i>Düzenli yedeklemeyi ayarlayarak programın
+                sizin
+                belirlediğiniz aralıklarda sizin belirlediğiniz adrese yedek almasini sağlayabilirsiniz. Ayrıca
+                yedeklemeyi istediğiniz zaman başlatıp istediğiniz zaman durdurabilirsiniz.
+            </li>
+            <br>
+
+            </span>
+        </ul>
+        <br>
+        <button onclick="myFunction('dots4','more4','myBtn4')" id="myBtn4">
+            &#9660;
+        </button>
+    </div>
+    <!--heading div-->
+    <div id="etas" class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <img src="images/icon/e-tahsilat.svg" alt="" class="iconpage">
+        <br>
+        <h2> E-TAHSİLAT</h2>
+        <br>
+
+        <p>
+            Moka sanal pos ara yüzü sadece internet bağlantısı ile 7x24 bütün kredi kartlarından kesintisiz tahsilat
+            sağlayabileceğiniz gelişmiş yazılım çözümüdür.
+        </p>
+
+        <ul style="list-style-type: none;">
+            <span id="dots5"></span>
+            <span id="more5">
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Hızlı ve
+                    güvenli tahsilat:
+                </span> Kredi kartı
+                tahsilatlarınızı kısa sürede gerçekleştirmenizi ve 3D güvenlik hizmeti uygulama bünyesinde
+                mevcuttur.
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Bilgisayarınızda kullanmanız için internet
+                    bağlantısı yeterli:
+                </span> Sanal ödeme işlemlerinizi gerçekleştirmek ve eski işlemlerinizle
+                ilgili
+                süreçleri
+                takip edebilmeniz için sadece internet bağlantısı yeterli.
+            </li>
+            <br>
+
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Bütün kredi
+                    kartları için taksitli satış
+                    imkânı:
+                </span> Kart ayırt etmeksizin tüm bankalara ait kartlardan taksitli satış
+                gerçekleştirebilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    Yabancı
+                    kartlar
+                    ile işlem yapabilme: Yabancı
+                    kartlar ile işlem yapabilme:
+                </span> Yabancı kart ve para birimleri üzerinden
+                tahsilatlarınızı
+                gerçekleştirebilir iade ve iptal işlemlerinizi kontrol edebilirsiniz.
+            </li>
+            <br>
+
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i> <span style="font-weight: bold;">
+                    7x24
+                    kesintisiz
+                    tahsilat imkânı:
+                </span> Konum zaman
+                gözetmeksizin her an her yerden ödemelerinizi güven içerisinde tahsil edebilirsiniz.
+            </li>
+            <br>
+            </span>
+        </ul>
+        <br>
+        <button onclick="myFunction('dots5','more5','myBtn5')" id="myBtn5">
+            &#9660;
+        </button>
+        <br>
+    </div>
+    <!--heading div-->
+
+    <div id="teklifsipa" class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <img src="images/icon/teklif-siparis.svg" alt="" class="iconpage">
+        <br>
+        <h2> TEKLİF-SİPARİŞ</h2>
+        <br>
+        <p>
+            Bilsoft teklif ve sipariş modülü, ön muhasebe programınıza entegre olarak çalışan bir modüldür. Modül
+            sayesinde farklı teklifler oluşturabilir, bu teklifleri kayıt altında tutarak en uygun teklifinizi
+            siparişe döndürebilirsiniz. Siparişlerinizi de faturalandırabilir ve faturanızı muhasebe programına
+            işleyebilirsiniz.
+        </p>
+        <br>
+        <span id="dots6"></span> <span id="more6">
+            <ul style="list-style-type: none;">
+
+                <li>
+                    <i style="color: green;" class="fas fa-check"></i><span style="font-weight: bold;">
+                        Teklif:
+                    </span>Satış öncesi, müşterilerinizin talebi
+                    doğrultusunda indirimli ve özel seçeneklerin tanımlanarak mal veya hizmet için sunabileceğiniz
+                    tekliflerin oluşturulduğu modüldür. Müşterinize sunduğunuz teklif kabul gördüğünde, teklifi tek
+                    tuşla satış faturasına çevirerek yeniden fatura hazırlama zahmetinden kurtulursunuz.
+                </li>
+                <br>
+
+
+
+                <li>
+                    <i style="color: green;" class="fas fa-check"></i><span style="font-weight: bold;">
+                        Sipariş:
+                    </span>Toptancınızdan aldığınız siparişleri, ek
+                    notlar ile birlikte kaydedebileceğiniz sipariş takip modülüdür. Sipariş hazırlandığında, tek tuş
+                    ile
+                    alış faturasına çevirerek, işlemlerinizi hızlandırabilirsiniz. Sipariş ve Takip Modülü ile neler
+                    yapabilirsiniz.
+                </li>
+                <br>
+
+            </ul>
+            <p>
+                Müşterilerinizden aldığınız siparişleri kayıt altında tutun. Sipariş bilgileri teslim tarihi sipariş
+                tutarı vb. bilgilere kolaylıkla ulaşabilirsiniz. Siparişiniz onaylandığında faturalandırarak
+                alışınızı
+                gerçekleştirebilirsiniz. Teklif çıktısı oluşturarak müşterinize teklif mektubu sunabilirsiniz.
+                Firmanıza
+                özel teklif tasarımları yapılabilirsiniz. Alınan ve verilen tekliflerin takip süreci (Onay Bekliyor,
+                Onaylandı, Siparişe Dönüştü vb..) Şablonlar ile genel şartlar, ödeme şartları ve özel açıklamalar
+                kullanılarak istenilen şartlara göre hızlı teklif hazırlayabilirsiniz. Barkod okuyucu ile hızlı
+                teklif
+                ve sipariş girişi yapabilirsiniz. Teklif veya sipariş işlemlerinizin detaylı raporunu alabilirsiniz.
+            </p>
+        </span>
+        <br>
+        <button onclick="myFunction('dots6','more6','myBtn6')" id="myBtn6">
+            &#9660;
+        </button>
+    </div>
+    <!--heading div-->
+    <div id="persotakip" class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <img src="images/icon/personel-takip.svg" alt="" class="iconpage">
+        <h2> PERSONEL TAKİP</h2>
+        <br>
+        <p>
+            Çalışana ait bordro işlemlerinin hatasız, tüm ayrıntıları dikkate alacak şekilde ve hızlı yapılması hem
+            bu işi yapan bölümün işini kolaylaştırır hem de çalışanların işyerine olan güvenini sağlamlaştırır.
+            Bilsoft personel modülü ile çalışanlarınıza ait eğitim, maaş hesaplaması, bordrolama sistemi, izin
+            takibi, gelir gider takibinin detaylı kayıt altına alınmasını sağlayarak işlerinizi kolaylaştırıp daha
+            profesyonel ve hatasız yönetim sağlayabilirsiniz.
+        </p>
+
+        <ul style="list-style-type: none;">
+            <span id="dots7"></span>
+            <span id="more7">
+
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i><span style="font-weight: bold;">
+                    Yeni
+                    personel:
+                </span> Dilediğiniz kadar personel
+                ekleyebilir personelin genel bilgilerini, iletişim ve aile bilgilerini buradan ekleyebilir ve
+                güncelleyebilirsiniz.
+            </li>
+            <br>
+            <li>
+                <i style="color: green;" class="fas fa-check"></i><span style="font-weight: bold;">
+                    Personel
+                    Resim
+                    Ekleme:
+                </span> İsim soy isim benzerliğinden
+                dolayı personel kayıtlarını karıştırabilirsiniz. Bunun önüne geçebilmek için personellerinizin
+                profil resimlerini sisteme ekleyerek görüntüleme sağlayıp karışıklığı giderebilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i>
+                <span style="font-weight: bold;">Personel Dosya Ekleme:</span> Personelinizin Hizmet Belgesi,
+                İşe
+                Giriş Bildirgesi, İşçi Bildirim Listesi,
+                Vizite kâğıdı ve Sağlık Belgesi, Eksik Gün Bildirim formu, İşten Ayrılma Bildirgesi vb. tüm
+                resmi
+                raporları dosya olarak sisteme ekleyerek kayıt altına alabilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i>
+                <span style="font-weight: bold;">Personel Notları:</span> Personellerinize özel olarak onların
+                kişilikleri, farklı özellikleri ve istediğiniz
+                not türlerinde detayları bilgiler ekleyebilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i>
+                <span style="font-weight: bold;">Personel izinleri:</span> Personellerinin izinlerinin kayıtlı
+                olduğu yerdir. İzin türleri esnek bir şekilde
+                değiştirilebilmektedir. Başlangıç tarihi bitiş tarihi ve iş başı yaptığı tarihler girilerek
+                personellerin izinleri takip edilir. Böylelikle personelinizin izin sürelerini
+                raporlayabilirsiniz.
+            </li>
+            <br>
+            </span>
+        </ul>
+        <button onclick="myFunction('dots7','more7','myBtn7')" id="myBtn7">
+            &#9660;
+        </button>
+    </div>
+
+    <!--heading div-->
+    <div id="vadetakip" class="margin-bottom30"
+         style="background-color: rgba(207, 207, 207, 0.363); border: rgba(207, 207, 207, 0.363); border-radius: 10px; padding: 25px;">
+        <img src="images/icon/vade-takip.svg" alt="" class="iconpage">
+        <h2> VADE TAKİP</h2>
+        <br>
+
+        <p>
+            Bilsoft vade takip programı ile vadesi geçen müşterilerinizi takip edebilir, hangi müşterilerin
+            vadesinde ödeme yapmadıklarını görebilir, açık hesap ve isteyeceğiniz para tutarına göre
+            görüntüleyebilir, vadesi geçen müşterilerinize ödeme tarihi ile ilgili bilgilendirme maili ve sms
+            gönderebilirsiniz.
+
+        </p>
+        <br>
+        <ul style="list-style-type: none;">
+            <span id="dots8"></span>
+            <span id="more8">
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i><span style="font-weight: bold;">
+                    Çek/Senet
+                    Takibi:
+                </span> Listeleme yaparken istediğiniz
+                iki tarih arası, çek durumu, çek türü, çek numarası ve ünvana göre filtreleme yapabilir ve
+                raporlayabilirsiniz. Sayfa altında alınan çek toplamı ve verilen çek toplamı bakiyelerini
+                görüntüleyebilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i><span style="font-weight: bold;">
+                    Cari Hesap
+                    Takibi:
+                </span> Listeleme yaparken istediğiniz
+                iki tarih arası, ödeme şekli ve ünvana göre filtreleme yapabilir ve raporlayabilirsiniz. Sayfa
+                altında toplam borç ve toplam alacak bakiyelerini görüntüleyebilirsiniz.
+            </li>
+            <br>
+
+            <li>
+                <i style="color: green;" class="fas fa-check"></i>
+                <span style="font-weight: bold;"> Taksit Takibi:</span> Listeleme yaparken istediğiniz iki tarih
+                arası, ödeme şekli ve ünvana göre filtreleme
+                yapabilir ve raporlayabilirsiniz. Alınacak toplam taksit bakiyesini görüntüleyebilirsiniz.
+            </li>
+            <br>
+            </span>
+        </ul>
+        <button onclick="myFunction('dots8','more8','myBtn8')" id="myBtn8">
+            &#9660;
+        </button>
+    </div>
+    <!--heading div-->
+
+</div>
+
+<script src="~/Online_on_muhasebe/readmore.js"></script>
+
